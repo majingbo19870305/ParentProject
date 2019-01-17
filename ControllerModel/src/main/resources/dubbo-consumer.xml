@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+       http://www.springframework.org/schema/context/spring-context.xsd
+        http://code.alibabatech.com/schema/dubbo
+       http://code.alibabatech.com/schema/dubbo/dubbo.xsd
+    ">
+
+    <context:annotation-config></context:annotation-config>
+
+    <!--
+        配置应用的信息，用于计算机的依赖
+        理解为：当前项目在dubbo中起的名字
+    -->
+    <dubbo:application name="ControllerModel"></dubbo:application>
+    <!--配置当前使用的注册中心的信息：zookeeper-->
+    <dubbo:registry address="zookeeper://127.0.0.1:2181" client="zkclient"></dubbo:registry>
+    <!--从注册中心中查找所需要的接口信息-->
+    <dubbo:reference interface="com.iotek.user.service.UserService" id="userService"></dubbo:reference>
+
+</beans>

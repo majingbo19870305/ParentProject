@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/CommModel/CommModel.iml" filepath="$PROJECT_DIR$/CommModel/CommModel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ControllerModel/ControllerModel.iml" filepath="$PROJECT_DIR$/ControllerModel/ControllerModel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GoodsServiceModel/GoodsServiceModel.iml" filepath="$PROJECT_DIR$/GoodsServiceModel/GoodsServiceModel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OrderServiceModel/OrderServiceModel.iml" filepath="$PROJECT_DIR$/OrderServiceModel/OrderServiceModel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ParentProject.iml" filepath="$PROJECT_DIR$/ParentProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UserServiceModel/UserServiceModel.iml" filepath="$PROJECT_DIR$/UserServiceModel/UserServiceModel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WebModel/WebModel.iml" filepath="$PROJECT_DIR$/WebModel/WebModel.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="CommModel" />
+        <module name="ControllerModel" />
+        <module name="GoodsServiceModel" />
+        <module name="OrderServiceModel" />
+        <module name="UserServiceModel" />
+        <module name="WebModel" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="CommModel" target="1.7" />
+      <module name="ControllerModel" target="1.7" />
+      <module name="GoodsServiceModel" target="1.7" />
+      <module name="OrderServiceModel" target="1.7" />
+      <module name="ParentProject" target="1.7" />
+      <module name="UserServiceModel" target="1.7" />
+      <module name="WebModel" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

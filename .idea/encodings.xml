@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/CommModel" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ControllerModel" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/GoodsServiceModel" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/OrderServiceModel" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/UserServiceModel" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/WebModel" charset="UTF-8" />
+  </component>
+</project>
